@@ -9,8 +9,8 @@ $url = 'https://api.bigcommerce.com/stores/{store-hash}/v2/products/{product-id}
 $headers = array(
 	'Content-type: application/json',
 	'Accept: application/json',
-    'X-Auth-Client: {the OAuth client id}',
-	'X-Auth-Token: {the OAuth token}'
+        'X-Auth-Client: {OAuth client id}',
+	'X-Auth-Token: {OAuth token}'
 );
 
 //Content to enter into the product description
